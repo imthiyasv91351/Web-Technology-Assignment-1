@@ -1,0 +1,26 @@
+
+.custome-1 {
+  margin-top: 35px;
+  padding: 20px;
+  background: hsl(0, 0%, 98%);
+  border-radius: 10px;
+  border: 2px solid #668099;
+
+
+
+
+.custome-2 {
+  margin-top: 10px;
+ 
+}
+
+
+abbr {
+  text-decoration: none;
+  background-color:white;
+}
+
+.tile is-parent {
+  background-color: white;
+}
+

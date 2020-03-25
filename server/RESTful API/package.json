@@ -1,0 +1,35 @@
+{
+  "name": "case-switcher-api",
+  "version": "1.0.0",
+  "description": "Change cases or requests from lower to upper and upper to lower",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaheemMPM/WebTechnology-Assignment1.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Node",
+    "Express",
+    "XML"
+  ],
+  "author": "Mohammed Shaheem P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaheemMPM/WebTechnology-Assignment1/issues"
+  },
+  "homepage": "https://github.com/shaheemMPM/WebTechnology-Assignment1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "xml-js": "^1.6.11"
+  },
+  "engines": {
+    "node": "12.16.1"
+  }
+}

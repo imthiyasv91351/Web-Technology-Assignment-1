@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment - I | WebTechnology | Imthiyas</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bulma.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  
+
+
+ <body>
+
+    <section class="hero is-dark has-background-grey-darker">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Students Detials
+          </h1>
+          <h2 class="subtitle">
+            
+          </h2>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <div class="container custome-1 " >
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input id="ipName" class="input" type="text" placeholder="Enter your name">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Address</label>
+        <div class="control">
+          <textarea id="ipAddress" class="textarea" placeholder="Enter Your Address"></textarea>
+        </div>
+      </div>
+      <div class="field is-grouped custome-2">
+        <p class="control">
+          <a id="btnAdd" class="button is-success is-outlined">
+            Add 
+          </a>
+        </p>
+        <p class="control">
+          <a id="btnClear"  class="button is-danger is-outlined">
+            Clear 
+          </a>
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+
+    <section class="section">
+      <div class="container">
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-6">
+            <div class="tile is-parent">
+              <article class="tile is-child ">
+                <table class="table is-danger">
+                  <thead>
+                    <tr>
+                      <th><abbr title="Serial Number">Sl.No</abbr></th>
+                      <th><addr title="Full Name of student">Name</addr></th>
+                      <th><addr title="Address of student">Address</addr></th>
+                    </tr>
+                  </thead>
+                  <tbody id="tblBody">
+                    <!-- data to be added with JS -->
+                  </tbody>
+                </table>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent ">
+            <article class="tile is-child notification is-link has-background-primary	">
+              <div class="content">
+                <p class="title">Actions</p>
+                <div class="buttons">
+                  <button id="btnToUpper" class="button is-medium is-fullwidth is-inverted is-info">Display as upper case</button>
+                  <button id="btnToLower" class="button is-medium is-fullwidth is-inverted is-danger">Display as lower case</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <section class="modal-card-body">
+          <p>Enter Name and Address of Student</p>
+        </section>
+        <button class="button is-danger" id="btnEdit">Edit</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
